@@ -2,21 +2,44 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+There are only 3 steps to running this application in your local device.
+
+# First, clone the repsitory
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+git clone https://github.com/chrysocolla110/luhn-credit.git
 ```
+
+# Second, install package dependenceis:
+```bash
+npm install
+# or
+npm i
+# or
+yarn
+
+```
+
+# Third, run the development server:
+
+```bash
+npm run start
+# or
+yarn start
+```
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+Finaly, you can see the follow UI.
+![Figure 1-1](./src/utils/Screenshot_1.jpg "Figure 1-1")
+
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Back-End (Credit Card Luhn Validation)
+
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/validation](http://localhost:3000/api/validation). 
+This endpoint can be edited in `pages/api/validation.js`.
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
