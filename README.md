@@ -4,13 +4,13 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 There are only 3 steps to running this application in your local device.
 
-# First, clone the repsitory
+### First, clone the repsitory
 
 ```bash
 git clone https://github.com/chrysocolla110/luhn-credit.git
 ```
 
-# Second, install package dependenceis:
+### Second, install package dependenceis:
 ```bash
 npm install
 # or
@@ -20,7 +20,7 @@ yarn
 
 ```
 
-# Third, run the development server:
+### Third, run the development server:
 
 ```bash
 npm run start
