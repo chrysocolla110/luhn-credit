@@ -32,7 +32,9 @@ yarn start
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 Finaly, you can see the follow UI.
-![Figure 1-1](./src/utils/Screenshot_1.jpg "Figure 1-1")
+![Figure 1](./src/utils/Screenshot_1.jpg "Figure 1")
+![Figure Success](./src/utils/Screenshot_success.jpg "Figure success")
+![Figure Failed](./src/utils/Screenshot_failed.jpg "Figure 1-1")
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
