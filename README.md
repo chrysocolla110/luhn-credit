@@ -2,15 +2,15 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-There are only 3 steps to running this application in your local device.
+There are only 3 steps to running this application on your local device.
 
-### First, clone the repsitory
+### First, clone the repository
 
 ```bash
 git clone https://github.com/chrysocolla110/luhn-credit.git
 ```
 
-### Second, install package dependenceis:
+### Second, install package dependencies:
 ```bash
 npm install
 # or
@@ -31,10 +31,11 @@ yarn start
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Finaly, you can see the follow UI.
-![Figure 1](./src/utils/Screenshot_1.jpg "Figure 1")
-![Figure Success](./src/utils/Screenshot_success.jpg "Figure success")
-![Figure Failed](./src/utils/Screenshot_failed.jpg "Figure 1-1")
+Finally, you can see the following UI.
+<br/>
+<img src="./src/utils/Screenshot_1.jpg" alt="Credit Card Checking Form" style="height:200px;"/>
+<img src="./src/utils/Screenshot_success.jpg" alt="Credit Card Checking Form-Success" style="height:200px;"/>
+<img src="./src/utils/Screenshot_failed.jpg" alt="Credit Card Checking Form-Fail" style="height:200px;"/>
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
